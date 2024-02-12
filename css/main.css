@@ -3,12 +3,16 @@
 }
 
 body {
+    background-image: url(./img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    
     font-family: Arial, sans-serif;
 }
 
