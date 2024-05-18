@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Tela de funções</title>
+    <script src="jspag02.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description"content="Sistema automático de data de validade com alerta de produtos vencidos.">
+	<meta name="keywords" content="validade, produtos, vencidos, data de vencimento">
+    <meta name="author" content="Léo silva">
+    <link rel="stylesheet" href="csspag02.css">
+</head>
+    <body>
+        <div class="container">
+            <h1>Cadastro de Produtos</h1>
+            <div class="form-container">
+                <form id="product-form">
+                    <label for="productName">Nome do Produto:</label>
+                    <input type="text" id="productName" required>
+                    
+                    <label for="expiryDate">Data de Validade:</label>
+                    <input type="date" id="expiryDate" required>
+                    
+                    <button type="submit">Adicionar Produto</button>
+                </form>
+            </div>
+            <h2>Lista de Produtos</h2>
+            <ul id="productList"></ul>
+        </div>
+       
+    </html>
