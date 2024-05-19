@@ -8,18 +8,31 @@
 	<meta name="keywords" content="validade, produtos, vencidos, data de vencimento">
     <meta name="author" content="Léo silva">
     <link rel="stylesheet" href="css/main.css">
-    
 </head>
 <body>
     <div class="container">
-        <h2>Login</h2>
-        <form>
-            <label for="username">Usuário</label>
-            <input type="text" id="username" name="username">
-            <label for="password">Senha</label>
-            <input type="password" id="password" name="password">
-            <input type="submit" value="Login">
-        </form>
+        <div class="form-container">
+            <h2>Cadastrar Usuário</h2>
+            <form id="register-form">
+                <label for="register-username">Usuário</label>
+                <input type="text" id="register-username" name="username" required>
+                <label for="register-password">Senha</label>
+                <input type="password" id="register-password" name="password" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h2>Entrar</h2>
+            <form id="login-form">
+                <label for="login-username">Usuário</label>
+                <input type="text" id="login-username" name="username" required>
+                <label for="login-password">Senha</label>
+                <input type="password" id="login-password" name="password" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
     </div>
+    <script src="scripts.js"></script>
 </body>
+
 </html>
